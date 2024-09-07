@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="weather-widget">
+        <div class="weather-header">
+            <p id="date-time"><i class="fas fa-sun"></i> SUN 8:30 AM</p>
+            <p id="battery"><i class="fas fa-battery-half"></i> 80%</p>
+        </div>
+        <div class="weather-content">
+            <div class="weather-time">
+                <h1 id="time">3:02 PM</h1>
+                <p id="details">Humidity: 57% | Pressure: 1015 hPa | Wind: 14 km/h SSE</p>
+            </div>
+            <div class="weather-info">
+                <i id="weather-icon" class="fas fa-cloud-sun"></i>
+                <h2 id="temperature">30°C</h2>
+                <p id="feels-like">Feels Like: 32°C</p>
+                <p id="description">Partly Cloudy</p>
+            </div>
+        </div>
+        <button id="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

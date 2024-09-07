@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #87CEEB, #4682B4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-widget {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.weather-widget:hover {
+    transform: scale(1.05);
+}
+
+.weather-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.weather-header p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.weather-header i {
+    margin-right: 5px;
+}
+
+.weather-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.weather-time h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+.weather-time p {
+    font-size: 14px;
+    color: #666;
+}
+
+.weather-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.weather-info i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f39c12;
+}
+
+.weather-info h2 {
+    font-size: 36px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.weather-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+#refresh-button {
+    background-color: #f39c12;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#refresh-button:hover {
+    background-color: #e67e22;
+}
+
+#refresh-button i {
+    margin-right: 8px;
+}
